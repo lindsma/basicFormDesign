@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="eng">
+<head>
+  <title>Force User Sign Up Form</title>
+  <link rel="stylesheet" type="text/css" href="bFDStylesheet.css">
+</head>
+<body>
+<header>
+  <h1>Force User Sign Up Form</h1>
+</header>
+  <!-- Begin Form Structure -->
+<main>
+  <form action="" method="" autocomplete="">
+    <fieldset>
+      <legend>Basic Info</legend>
+      <label for="fullName">Full Name</label>
+      <input id="fullName" type="text" placeholder="Luke Skywalker" required>
+      <label for="profilePic">Profile Pic</label>
+      <input id="profilePic" type="file">
+      <label for="emailAddress">Email</label>
+      <input id="emailAddress" type="text" placeholder="luke@sky.com" required>
+      <label for="forceSide">Side:</label>
+      <input id="forceSide" type="radio" value="light" checked> Light
+      <input id="forceSide" type="radio" value="dark"> Dark
+      <label for="originStory"></label>
+      <textarea id="originStory" required></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>Abilities</legend>
+      <label for="lightSaberColor">Lightsaber Color</label>
+      <select id="lightSaberColor">
+        <option>Select Color</option>
+        <option>Blue</option>
+        <option>Red</option>
+        <option>Green</option>
+        <option>Purple</option>
+      <label for="objectsLevitate"></label>
+      <input id="objectsLevitate">
+      <label for="favoriteAbility">Favorite Ability</label>
+      <input id="favoriteAbility" type="text" placeholder="precognition">
+      <label for="pilotExperience">Pilot Experience</label>
+      <input id="pilotExperience" type="checkbox" value="speeder"> Speeder
+      <input id="pilotExperience" type="checkbox" value="transport">Transport
+      <input id="pilotExperience" type="checkbox" value="x-wing">X-wing
+      <input id="pilotExperience" type="checkbox" value="tie fighter">TIE Fighter
+      <input id="pilotExperience" type="checkbox" value="starship">Starship
+      <input id="pilotExperience" type="checkbox" value="bantha">Bantha
+    </fieldset>
+
+
+    <fieldset>
+      <legend>Application Info</legend>
+      <label for="desiredMentor">Desired Mentor</label>
+      <input id="desiredMentor" type="text" placeholder="yoda">
+      <label>Application Date</label>
+      <input>
+      <label>Application Password</label>
+      <input>
+      <label for="howGetToDarkSide">How did you get to the dark side?</label>
+      <textarea id="howGetToDarkSide"></textarea>
+      <input type="reset" value="Start Over">
+      <input type="submit" value="Apply">
+    </fieldset>
+
+  </form>
+</main>
+
+
+
+</body>
+</html>
