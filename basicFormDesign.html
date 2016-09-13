@@ -2,7 +2,7 @@
 <html lang="eng">
 <head>
   <title>Force User Sign Up Form</title>
-  <link rel="stylesheet" type="text/css" href="bFDStylesheet.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
 <header>
@@ -35,8 +35,9 @@
         <option>Red</option>
         <option>Green</option>
         <option>Purple</option>
-      <label for="objectsLevitate"></label>
-      <input id="objectsLevitate">
+      </select>
+      <label for="objectsLevitate">How many objects can you levitate at once?</label>
+      <input id="objectsLevitate" type="number" min="0" max="50">
       <label for="favoriteAbility">Favorite Ability</label>
       <input id="favoriteAbility" type="text" placeholder="precognition">
       <label for="pilotExperience">Pilot Experience</label>
@@ -54,9 +55,9 @@
       <label for="desiredMentor">Desired Mentor</label>
       <input id="desiredMentor" type="text" placeholder="yoda">
       <label>Application Date</label>
-      <input>
+      <input required>
       <label>Application Password</label>
-      <input>
+      <input required>
       <label for="howGetToDarkSide">How did you get to the dark side?</label>
       <textarea id="howGetToDarkSide"></textarea>
       <input type="reset" value="Start Over">
