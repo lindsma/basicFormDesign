@@ -1,26 +1,29 @@
 body {
   font-size: 12px;
 }
-
+main {
+  width: 100%;
+}
 label {
   font-size: 13px;
   font-weight: bold;
 }
 
+
 fieldset {
-  width: 30%;
+  width: 25%;
   float: left;
 }
 
 ul {
   list-style: none;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 2px;
 }
 
 li {
-  padding-top: 6px;
-  padding-bottom: 6px;
+  padding-bottom: 8px;
 }
 
 textarea {
@@ -30,6 +33,25 @@ textarea {
 }
 
 input[type=text],
+input[type=email],
 textarea {
   width: 100%;
+}
+
+input[type=submit],
+input[type=reset] {
+  background:#80bfff;
+  border: 1px solid #944dff;
+  border-radius: 5px;
+}
+
+footer {
+  clear: both;
+  padding-top: 15px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+textarea {
+  height: 65px;
 }

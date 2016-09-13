@@ -12,67 +12,66 @@
 <!-- Begin Form Structure -->
 
 <main>
-  <form action="" method="" autocomplete="">
+  <form action="http://requestb.in/ueng1xue" method="post">
 
-    <!-- Basic Info -->
+<!-- Basic Info -->
 
     <fieldset>
       <legend>Basic Info</legend>
       <ul>
         <li><label for="fullName">Full Name</label><br>
-        <input id="fullName" type="text" placeholder="Luke Skywalker" required></li>
+        <input id="fullName" type="text" name="Full_Name" placeholder="Luke Skywalker" required></li>
         <li><label for="profilePic">Profile Pic</label><br>
-        <input id="profilePic" type="file" class="profilePicUpload"></li>
+        <input id="profilePic" type="file" name="Profile_Pic" class="profilePicUpload"></li>
         <li><label for="emailAddress">Email</label><br>
-        <input id="emailAddress" type="email" placeholder="luke@sky.com" required></li>
+        <input id="emailAddress" type="email" name="Email_Address" placeholder="luke@sky.com" required></li>
         <li><label for="forceSide">Side:</label><br>
-        <input id="forceSide" type="radio" value="light" checked> Light
-        <input id="forceSide" type="radio" value="dark"> Dark</li>
+        <input id="forceSide" type="radio" name="radioAnswer" value="light" checked> Light
+        <input id="forceSide" type="radio" name="radioAnswer" value="dark"> Dark</li>
         <li><label for="originStory">Origin Story</label><br>
-        <textarea id="originStory" required></textarea></li>
+        <textarea id="originStory" name="Origin_Story" required></textarea></li>
       </ul>
-    </fieldset>
+    </fieldset><!--
 
-    <!-- Abilities -->
+      Abilities
 
-    <fieldset>
+    --><fieldset>
       <legend>Abilities</legend>
       <ul>
         <li><label for="lightSaberColor">Lightsaber Color</label><br>
-          <select id="lightSaberColor">
-            <option>Select Color</option>
-            <option>Blue</option>
-            <option>Red</option>
-            <option>Green</option>
-            <option>Purple</option>
+          <select id="lightSaberColor" name="Light_Saber_Color">
+            <option name="Select_Color"value="Select_Color">Select Color</option>
+            <option name="Blue" value="Blue">Blue</option>
+            <option name="Red" value="Red">Red</option>
+            <option name="Green" value="Green">Green</option>
+            <option name="Purple" value="Purple">Purple</option>
           </select></li>
         <li><label for="objectsLevitate">How many objects can you levitate at once?</label><br>
-          <input id="objectsLevitate" type="number" min="0" max="50"></li>
+          <input id="objectsLevitate" type="number" name="How_many_objects_can_you_levitate_at_once?" min="0" max="50"></li>
         <li><label for="favoriteAbility">Favorite Ability</label><br>
-          <input id="favoriteAbility" type="text" placeholder="precognition"></li>
+          <input id="favoriteAbility" type="text" name="Favorite_Ability" placeholder="precognition"></li>
           <li><label for="pilotExperience">Pilot Experience</label><br>
-            <input id="pilotExperience" type="checkbox" value="speeder"> Speeder
-        <input id="pilotExperience" type="checkbox" value="transport">Transport
-        <input id="pilotExperience" type="checkbox" value="x-wing">X-wing
-        <input id="pilotExperience" type="checkbox" value="tie fighter">TIE Fighter
-        <input id="pilotExperience" type="checkbox" value="starship">Starship
-        <input id="pilotExperience" type="checkbox" value="bantha">Bantha</li>
+            <input id="pilotExperience" type="checkbox" name="Pilot_Experience" value="speeder"> Speeder
+        <input id="pilotExperience" type="checkbox" name=Pilot_Experience value="transport">Transport
+        <input id="pilotExperience" type="checkbox" name=Pilot_Experience value="x-wing">X-wing
+        <input id="pilotExperience" type="checkbox" name=Pilot_Experience value="tie fighter">TIE Fighter
+        <input id="pilotExperience" type="checkbox" name=Pilot_Experience value="starship">Starship
+        <input id="pilotExperience" type="checkbox" name=Pilot_Experience value="bantha">Bantha</li>
       </ul>
-    </fieldset>
+    </fieldset><!--
 
-    <!-- Application Info -->
-
-    <fieldset>
+      Application Info
+  --><fieldset>
       <legend>Application Info</legend>
       <ul>
         <li><label for="desiredMentor">Desired Mentor</label><br>
-        <input id="desiredMentor" type="text" placeholder="yoda"></li>
+        <input id="desiredMentor" type="text" name="Desired_Mentor" placeholder="yoda"></li>
         <li><label for="applicationDate">Application Date</label><br>
-        <input id="applicationDate" type="date" required></li>
+        <input id="applicationDate" type="date" name="Application_Date" required></li>
         <li><label>Application Password</label><br>
-        <input required></li>
+        <input id="applicationPassword" type="password" name="Application_Password" required></li>
         <li><label for="howGetToDarkSide">How did you get to the dark side?</label><br>
-        <textarea id="howGetToDarkSide"></textarea></li>
+        <textarea id="howGetToDarkSide" name="How_did_you_get_to_the_dark_side?"></textarea></li>
         <li><input type="reset" value="Start Over">
         <input type="submit" value="Apply"></li>
       </ul>
@@ -83,6 +82,7 @@
 
 <!-- Footer -->
 <footer>
+  <small>&copy; 2016 The Republic</small>
 
 </footer>
 
