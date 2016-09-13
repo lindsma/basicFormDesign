@@ -1,14 +1,35 @@
-legend {
+body {
   font-size: 12px;
 }
+
 label {
   font-size: 13px;
   font-weight: bold;
 }
+
 fieldset {
-  width: 25%;
+  width: 30%;
   float: left;
 }
+
 ul {
   list-style: none;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+li {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+textarea {
+  outline: none;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+input[type=text],
+textarea {
+  width: 100%;
 }

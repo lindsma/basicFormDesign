@@ -19,16 +19,16 @@
     <fieldset>
       <legend>Basic Info</legend>
       <ul>
-        <li><label for="fullName">Full Name</label>
+        <li><label for="fullName">Full Name</label><br>
         <input id="fullName" type="text" placeholder="Luke Skywalker" required></li>
-        <li><label for="profilePic">Profile Pic</label>
-        <input id="profilePic" type="file"></li>
-        <li><label for="emailAddress">Email</label>
-        <input id="emailAddress" type="text" placeholder="luke@sky.com" required></li>
-        <li><label for="forceSide">Side:</label>
+        <li><label for="profilePic">Profile Pic</label><br>
+        <input id="profilePic" type="file" class="profilePicUpload"></li>
+        <li><label for="emailAddress">Email</label><br>
+        <input id="emailAddress" type="email" placeholder="luke@sky.com" required></li>
+        <li><label for="forceSide">Side:</label><br>
         <input id="forceSide" type="radio" value="light" checked> Light
         <input id="forceSide" type="radio" value="dark"> Dark</li>
-        <li><label for="originStory"></label>
+        <li><label for="originStory">Origin Story</label><br>
         <textarea id="originStory" required></textarea></li>
       </ul>
     </fieldset>
@@ -38,7 +38,7 @@
     <fieldset>
       <legend>Abilities</legend>
       <ul>
-        <li><label for="lightSaberColor">Lightsaber Color</label>
+        <li><label for="lightSaberColor">Lightsaber Color</label><br>
           <select id="lightSaberColor">
             <option>Select Color</option>
             <option>Blue</option>
@@ -46,11 +46,11 @@
             <option>Green</option>
             <option>Purple</option>
           </select></li>
-        <li><label for="objectsLevitate">How many objects can you levitate at once?</label>
+        <li><label for="objectsLevitate">How many objects can you levitate at once?</label><br>
           <input id="objectsLevitate" type="number" min="0" max="50"></li>
-        <li><label for="favoriteAbility">Favorite Ability</label>
+        <li><label for="favoriteAbility">Favorite Ability</label><br>
           <input id="favoriteAbility" type="text" placeholder="precognition"></li>
-          <li><label for="pilotExperience">Pilot Experience</label>
+          <li><label for="pilotExperience">Pilot Experience</label><br>
             <input id="pilotExperience" type="checkbox" value="speeder"> Speeder
         <input id="pilotExperience" type="checkbox" value="transport">Transport
         <input id="pilotExperience" type="checkbox" value="x-wing">X-wing
@@ -65,13 +65,13 @@
     <fieldset>
       <legend>Application Info</legend>
       <ul>
-        <li><label for="desiredMentor">Desired Mentor</label>
+        <li><label for="desiredMentor">Desired Mentor</label><br>
         <input id="desiredMentor" type="text" placeholder="yoda"></li>
-        <li><label for="applicationDate">Application Date</label>
+        <li><label for="applicationDate">Application Date</label><br>
         <input id="applicationDate" type="date" required></li>
-        <li><label>Application Password</label>
+        <li><label>Application Password</label><br>
         <input required></li>
-        <li><label for="howGetToDarkSide">How did you get to the dark side?</label>
+        <li><label for="howGetToDarkSide">How did you get to the dark side?</label><br>
         <textarea id="howGetToDarkSide"></textarea></li>
         <li><input type="reset" value="Start Over">
         <input type="submit" value="Apply"></li>
